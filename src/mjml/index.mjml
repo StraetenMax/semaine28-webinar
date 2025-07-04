@@ -17,7 +17,7 @@
       <mj-class name="T32-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="32px" line-height="50px" font-weight="300"/>
       <mj-class name="T25-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="25px" line-height="40px" font-weight="300"/>
       <mj-class name="T30-500" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="30px" line-height="40px" font-weight="500"/>
-      <mj-class name="T26-500" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="26px" line-height="35px" font-weight="500"/>
+      <mj-class name="T24-600" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="600"/>
       <mj-class name="T14-400" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="20px" font-weight="400"/>
       <mj-button padding="0" inner-padding="10px 10px" width="163px" border-radius="20px" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700" text-transform="uppercase"></mj-button>
       <mj-class name="cT1" color="#2c262d"/>
@@ -26,8 +26,8 @@
       <mj-class name="bg0" background-color="#000000"/>
       <mj-class name="cTW" color="#ffffff"/>
       <mj-class name="bgW" background-color="#ffffff"/>
-      <mj-class name="cB" color="#00a3de"/>
-      <mj-class name="bgB" background-color="#00a3de"/>
+      <mj-class name="cB" color="#73389b"/>
+      <mj-class name="bgB" background-color="#73389b"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
   </mj-head>
@@ -47,25 +47,45 @@
         <mj-image padding="0" width="700px" src="/images/illustrationT.jpg" alt=""></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-image src="/images/illustrationEve.jpg" alt=""></mj-image>
+    <mj-section padding="0" mj-class="bgW">
+      <mj-column width="50%">
+        <mj-image padding="0" width="348px" src="/images/illustrationEve.jpg" alt=""></mj-image>
       </mj-column>
-      <mj-column>
-        <mj-text>Webinar</mj-text>
-        <mj-text>Durant ce webinar, Netgear vous propose de découvrir :</mj-text>
-        <mj-text>Les points d'accès Netgear WiFi 6 et systèmes Mesh Orbi Pro WiFi 6</mj-text>
-        <mj-text>Comment faire... Netgear Instant Mesh</mj-text>
-        <mj-text>Comment faire... Netgear Orbi Pro</mj-text>
-        <mj-text>Comparaison Netgear Orbi vs Netgear Instant Mesh</mj-text>
-        <mj-text>Questions et réponses</mj-text>
-        <mj-text><img src="./images/agenda.png" alt=""/>Jeudi 15 Juillet</mj-text>
-        <mj-divider></mj-divider>
-        <mj-text><img src="./images/temps.png" alt=""/>11h30</mj-text>
-        <mj-divider></mj-divider>
-        <mj-text><img src="./images/sablier.png" alt=""/>30 minutes</mj-text>
-        <mj-divider></mj-divider>
-        <mj-text><img src="./images/reunion.png" alt=""/>Public non technique, pour comprendre les avantages du WiFi 6 en entreprise</mj-text>
+      <mj-column width="50%" padding="20px 30px 10px 20px">
+        <mj-text padding="0" mj-class="T24-600 cB" letter-spacing="1.5px">Webinar</mj-text>
+        <mj-text padding="0" mj-class="T14-400 cT0">Durant ce webinar, Netgear vous propose de découvrir :</mj-text>
+        <mj-text padding="0" mj-class="T14-400 cT0">&#x2022;&nbsp;&nbsp;&nbsp;Les points d'accès <strong>NETGEAR WiFi 6</strong> et systèmes Mesh Orbi Pro WiFi 6</mj-text>
+        <mj-text padding="0" mj-class="T14-400 cT0">&#x2022;&nbsp;&nbsp;&nbsp;Comment faire... <strong>NETGEAR Instant Mesh</strong></mj-text>
+        <mj-text padding="0" mj-class="T14-400 cT0">&#x2022;&nbsp;&nbsp;&nbsp;Comment faire... <strong>NETGEAR Orbi Pro</strong></mj-text>
+        <mj-text padding="0" mj-class="T14-400 cT0">&#x2022;&nbsp;&nbsp;&nbsp;<strong>Comparaison</strong> NETGEAR Orbi vs NETGEAR Instant Mesh</mj-text>
+        <mj-text padding="0" mj-class="T14-400 cT0">&#x2022;&nbsp;&nbsp;&nbsp;<strong>Questions</strong> et <strong>réponses</strong></mj-text>
+        <mj-table padding="0">
+          <tr>
+            <td width="10%"><img style="vertical-align:middle;padding:0" width="40px" src="./images/agenda.png" alt=""/></td>
+            <td width="90%" style="align:left;font-family:'Source Sans 3',Arial,Helvetica,sans-serif;font-style:normal;font-size:14px;line-height:20px;font-weight:400;">Jeudi 15 Juillet</td>
+          </tr>
+        </mj-table>
+        <mj-divider padding="0" border-width="1px" border-style="solid" border-color="#cccccc"></mj-divider>
+        <mj-table padding="0">
+          <tr>
+            <td width="10%"><img style="vertical-align:middle;padding:0" width="40px" src="./images/temps.png" alt=""/></td>
+            <td width="90%" style="align:left;font-family:'Source Sans 3',Arial,Helvetica,sans-serif;font-style:normal;font-size:14px;line-height:20px;font-weight:400;">11h30</td>
+          </tr>
+        </mj-table>
+        <mj-divider padding="0" border-width="1px" border-style="solid" border-color="#cccccc"></mj-divider>
+        <mj-table padding="0">
+          <tr>
+            <td width="10%"><img style="vertical-align:middle;padding:0" width="40px" src="./images/sablier.png" alt=""/></td>
+            <td width="90%" style="align:left;font-family:'Source Sans 3',Arial,Helvetica,sans-serif;font-style:normal;font-size:14px;line-height:20px;font-weight:400;">30 minutes</td>
+          </tr>
+        </mj-table>
+        <mj-divider padding="0" border-width="1px" border-style="solid" border-color="#cccccc"></mj-divider>
+        <mj-table padding="0">
+          <tr>
+            <td width="10%"><img style="vertical-align:middle;padding:0" width="40px" src="./images/reunion.png" alt=""/></td>
+            <td width="90%" style="align:left;font-family:'Source Sans 3',Arial,Helvetica,sans-serif;font-style:normal;font-size:14px;line-height:20px;font-weight:400;">Public non technique, pour comprendre les avantages du WiFi 6 en entreprise</td>
+          </tr>
+        </mj-table>
         <mj-button>Je m'inscris</mj-button>
       </mj-column>
     </mj-section>
