@@ -18,8 +18,7 @@
       <mj-class name="T25-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="25px" line-height="40px" font-weight="300"/>
       <mj-class name="T30-500" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="30px" line-height="40px" font-weight="500"/>
       <mj-class name="T26-500" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="26px" line-height="35px" font-weight="500"/>
-      <mj-class name="T17-500" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="25px" font-weight="500"/>
-      <mj-class name="T12-400" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="13px" font-weight="400"/>
+      <mj-class name="T14-400" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="20px" font-weight="400"/>
       <mj-button padding="0" inner-padding="10px 10px" width="163px" border-radius="20px" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700" text-transform="uppercase"></mj-button>
       <mj-class name="cT1" color="#2c262d"/>
       <mj-class name="bgT1" background-color="#2c262d"></mj-class>
@@ -43,9 +42,9 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-image src="/images/illustrationT.jpg" alt=""></mj-image>
+    <mj-section padding="0">
+      <mj-column width="700px">
+        <mj-image padding="0" width="700px" src="/images/illustrationT.jpg" alt=""></mj-image>
       </mj-column>
     </mj-section>
     <mj-section>
@@ -72,8 +71,10 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text><img src="./images/iconLieu.png" alt=""/>Netgear - 2 rue de Marly le roi, 78150 Le Chesnay</mj-text>
-        <mj-social>
+        <mj-text vertical-align="middle" align="center" padding="0" mj-class="T14-400 cT0"><img style="vertical-align:middle;padding:0" width="10px" src="./images/iconLieu.png" alt=""/> 
+          &nbsp;<span style="text-transform:uppercase"> Netgear</span> - 2 rue de Marly le roi, 78150 <span style="text-transform:uppercase">Le Chesnay</span>
+        </mj-text>
+        <mj-social padding="0" icon-size="32px" mode="horizontal">
           <mj-social-element src="./images/facebookIcon.png" href="https://www.facebook.com/netgearfrance"></mj-social-element>
           <mj-social-element src="./images/twitterIcon.png" href="https://twitter.com/NetgearFrance"></mj-social-element>
           <mj-social-element src="./images/linkedinIcon.png" href="https://www.linkedin.com/company/netgear-france"></mj-social-element>
