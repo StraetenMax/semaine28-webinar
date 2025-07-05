@@ -34,11 +34,8 @@
   <mj-body background-color="#f1f0f0" width="700px">
     <mj-section padding="24px 30px" mj-class="bgT1">
       <mj-group>
-        <mj-column vertical-align="middle">
-          <mj-image align="left" padding="0" width="145px" src="./images/businessNetgear.png" alt="logo Netgear store en blanc"/>
-        </mj-column>
-        <mj-column vertical-align="middle">
-          <mj-text align="right" padding="0" mj-class="T9-400" color="#ababab" text-transform="uppercase" letter-spacing="2px"><a style="text-decoration:none;color:#ababab;" href="#">version en ligne&nbsp;&#x23f5;</a></mj-text>
+        <mj-column>
+          <mj-image align="left" padding="0" width="145px" src="./images/businessNetgear.png" alt="logo Netgear store en blanc"/>          
         </mj-column>
       </mj-group>
     </mj-section>
@@ -90,12 +87,17 @@
         <mj-button mj-class="bgB">Je m'inscris</mj-button>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section padding="0" background-color="#e7e9ec">
+      <mj-column>
+        <mj-spacer height="4px"> </mj-spacer>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="30px 28px 20px 31px" mj-class="bgW">
       <mj-column>
         <mj-text vertical-align="middle" align="center" padding="0" mj-class="T14-400 cT0"><img style="vertical-align:middle;padding:0" width="10px" src="./images/iconLieu.png" alt=""/> 
           &nbsp;<span style="text-transform:uppercase"> Netgear</span> - 2 rue de Marly le roi, 78150 <span style="text-transform:uppercase">Le Chesnay</span>
         </mj-text>
-        <mj-social padding="0" icon-size="32px" mode="horizontal">
+        <mj-social padding="20px 0" icon-size="32px" mode="horizontal">
           <mj-social-element src="./images/facebookIcon.png" href="https://www.facebook.com/netgearfrance"></mj-social-element>
           <mj-social-element src="./images/twitterIcon.png" href="https://twitter.com/NetgearFrance"></mj-social-element>
           <mj-social-element src="./images/linkedinIcon.png" href="https://www.linkedin.com/company/netgear-france"></mj-social-element>
