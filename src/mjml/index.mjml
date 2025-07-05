@@ -50,12 +50,15 @@
       </mj-column>
       <mj-column width="50%" padding="20px 30px 10px 20px">
         <mj-text padding="0" padding-bottom="15px" mj-class="T24-600 cB" letter-spacing="1.5px">Webinar</mj-text>
-        <mj-text padding="0" padding-bottom="20px" mj-class="T14-400 cT0">Durant ce webinar, Netgear vous propose de découvrir :</mj-text>
-        <mj-text padding="0" padding-bottom="10px" mj-class="T14-400 cT0">&#x2022;&nbsp;&nbsp;&nbsp;Les points d'accès <strong>NETGEAR WiFi 6</strong> et systèmes Mesh Orbi Pro WiFi 6</mj-text>
-        <mj-text padding="0" padding-bottom="10px" mj-class="T14-400 cT0">&#x2022;&nbsp;&nbsp;&nbsp;Comment faire... <strong>NETGEAR Instant Mesh</strong></mj-text>
-        <mj-text padding="0" padding-bottom="10px" mj-class="T14-400 cT0">&#x2022;&nbsp;&nbsp;&nbsp;Comment faire... <strong>NETGEAR Orbi Pro</strong></mj-text>
-        <mj-text padding="0" padding-bottom="10px" mj-class="T14-400 cT0">&#x2022;&nbsp;&nbsp;&nbsp;<strong>Comparaison</strong> NETGEAR Orbi vs NETGEAR Instant Mesh</mj-text>
-        <mj-text padding="0" padding-bottom="10px" mj-class="T14-400 cT0">&#x2022;&nbsp;&nbsp;&nbsp;<strong>Questions</strong> et <strong>réponses</strong></mj-text>
+        <mj-text padding="0" align="left" mj-class="T14-400 cT0">Durant ce webinar, Netgear vous propose de découvrir :
+          <ul style="margin:0;padding:20px;">
+            <li style="margin:0;padding:0;padding-bottom:10px">Les points d'accès <strong>NETGEAR WiFi 6</strong> et systèmes Mesh Orbi Pro WiFi 6</li>
+            <li style="margin:0;padding:0;padding-bottom:10px">Comment faire... <strong>NETGEAR Instant Mesh</strong></li>
+            <li style="margin:0;padding:0;padding-bottom:10px">Comment faire... <strong>NETGEAR Orbi Pro</strong></li>
+            <li style="margin:0;padding:0;padding-bottom:10px"><strong>Comparaison</strong> NETGEAR Orbi vs NETGEAR Instant Mesh</li>
+            <li style="margin:0;padding:0;"><strong>Questions</strong> et <strong>réponses</strong></li>
+          </ul>
+        </mj-text>
         <mj-table padding="10px 0">
           <tr>
             <td width="10%"><img style="vertical-align:middle;padding:0" width="40px" src="./images/agenda.png" alt=""/></td>
